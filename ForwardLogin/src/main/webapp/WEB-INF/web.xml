@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>ForwardLogin</display-name>
+  <welcome-file-list>
+    <welcome-file>LoginFile.html</welcome-file>
+    
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>LoginFile</display-name>
+    <servlet-name>LoginFile</servlet-name>
+    <servlet-class>com.sathya.Login.LoginFile</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginFile</servlet-name>
+    <url-pattern>/LoginFile</url-pattern>
+  </servlet-mapping>
+</web-app>
